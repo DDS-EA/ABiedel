@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Platform Comparison | California DDS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .feature-cell {
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            background-color: white;
+            border: 1px solid #e5e7eb;
+        }
+        .platform-header {
+            background-color: #1e40af;
+            color: white;
+            font-weight: 600;
+            border-radius: 0.5rem;
+        }
+        .current-platform {
+            border: 2px solid #1e40af;
+        }
+        .check-icon {
+            color: #10b981;
+        }
+        .x-icon {
+            color: #ef4444;
+        }
+        .partial-icon {
+            color: #f59e0b;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- Header -->
+        <header class="mb-12 text-center" data-aos="fade-down">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">HR Platform Comparison</h1>
+            <p class="text-xl text-gray-600">For California Department of Developmental Services</p>
+            <div class="mt-6 bg-blue-50 p-4 rounded-lg inline-block">
+                <p class="text-blue-800 font-medium">Current Platform: <span class="font-bold">AutoHR</span></p>
+            </div>
+        </header>
+
+        <!-- Comparison Table -->
+        <div class="bg-white shadow-lg rounded-xl overflow-hidden" data-aos="fade-up">
+            <div class="grid md:grid-cols-4 gap-4">
+                <!-- Platform Headers -->
+                <div class="hidden md:block"></div>
+                <div class="platform-header p-4 rounded-lg text-center font-bold">
+                    AutoHR (Current)
+                </div>
+                <div class="platform-header p-4 rounded-lg text-center font-bold">
+                    Workday
+                </div>
+                <div class="platform-header p-4 rounded-lg text-center font-bold">
+                    ServiceNow HR
+                </div>
+
+                <!-- Features -->
+                <div class="grid md:grid-cols-4 gap-4 col-span-4 md:col-span-1">
+                    <div class="bg-gray-100 p-4 font-medium rounded-lg">Core HR Management</div>
+                    <div class="bg-gray-100 p-4 font-medium rounded-lg">Payroll Processing</div>
+                    <div class="bg-gray-100 p-4 font-medium rounded-lg">Benefits Administration</div>
+                    <div class="bg-gray-100 p-4 font-medium rounded-lg">Talent Management</div>
+                    <div class="bg-gray-100 p-4 font-medium rounded-lg">Time & Attendance</div>
+                    <div class="bg-gray-100 p-4 font-medium rounded-lg">Advanced Analytics</div>
+                    <div class="bg-gray-100 p-4 font-medium rounded-lg">Mobile Access</div>
+                    <div class="bg-gray-100 p-4 font-medium rounded-lg">ServiceNow Integration</div>
+                    <div class="bg-gray-100 p-4 font-medium rounded-lg">Implementation Complexity</div>
+                    <div class="bg-gray-100 p-4 font-medium rounded-lg">Estimated Cost</div>
+                </div>
+
+                <!-- AutoHR -->
+                <div class="grid grid-cols-1 gap-4">
+                    <div class="feature-cell current-platform rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell current-platform rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell current-platform rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell current-platform rounded-lg">
+                        <i data-feather="x" class="x-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell current-platform rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell current-platform rounded-lg">
+                        <i data-feather="x" class="x-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell current-platform rounded-lg">
+                        <i data-feather="x" class="x-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell current-platform rounded-lg">
+                        <i data-feather="x" class="x-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell current-platform rounded-lg">
+                        <span class="text-gray-700">N/A</span>
+                    </div>
+                    <div class="feature-cell current-platform rounded-lg">
+                        <span class="text-gray-700">Current</span>
+                    </div>
+                </div>
+
+                <!-- Workday -->
+                <div class="grid grid-cols-1 gap-4">
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <span class="text-red-500 font-medium">High</span>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <span class="text-red-500 font-medium">$</span>
+                    </div>
+                </div>
+
+                <!-- ServiceNow HR -->
+                <div class="grid grid-cols-1 gap-4">
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="x" class="x-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <i data-feather="check" class="check-icon w-5 h-5"></i>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <span class="text-green-500 font-medium">Low</span>
+                    </div>
+                    <div class="feature-cell rounded-lg">
+                        <span class="text-green-500 font-medium">$</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Considerations -->
+        <div class="mt-16" data-aos="fade-up">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Key Considerations for California DDS</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                            <i data-feather="zap" class="text-blue-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold">ServiceNow Integration</h3>
+                    </div>
+                    <p class="text-gray-600">Using ServiceNow HR would provide seamless integration with your existing ITSM modules, reducing silos and improving cross-functional workflows.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-100 p-3 rounded-full mr-4">
+                            <i data-feather="dollar-sign" class="text-green-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold">Cost Efficiency</h3>
+                    </div>
+                    <p class="text-gray-600">ServiceNow HR would likely be the most cost-effective option as you're already using the platform, potentially reducing licensing and training costs.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-purple-100 p-3 rounded-full mr-4">
+                            <i data-feather="clock" class="text-purple-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold">Implementation Timeline</h3>
+                    </div>
+                    <p class="text-gray-600">ServiceNow HR would have the shortest implementation time compared to Workday or PeopleSoft, with existing organizational knowledge of the platform.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recommendation -->
+        <div class="mt-16 bg-blue-50 p-8 rounded-xl" data-aos="fade-up">
+            <div class="flex items-start">
+                <div class="bg-blue-100 p-3 rounded-full mr-6">
+                    <i data-feather="star" class="text-blue-600"></i>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold text-blue-900 mb-4">Recommendation</h2>
+                    <p class="text-blue-800 mb-4">Based on the comparison and California DDS's current technology landscape, <span class="font-bold">ServiceNow HR</span> emerges as the most strategic choice for your HR platform needs.</p>
+                    <ul class="list-disc pl-5 text-blue-800 space-y-2">
+                        <li>Leverages existing ServiceNow investment and expertise</li>
+                        <li>Provides seamless integration with current ITSM modules</li>
+                        <li>Lower implementation complexity and cost compared to alternatives</li>
+                        <li>Modern interface with mobile capabilities that AutoHR lacks</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+        });
+    </script>
+</body>
+</html>
